@@ -20,4 +20,4 @@
 version: 3.+
 default_application_name: $(ruby -e "require 'json' ; a = JSON.parse(ENV['VCAP_APPLICATION']);
   puts \"#{a['space_name']}:#{a['application_name']}\"")
-repository_root: https://s3-ap-southeast-1.amazonaws.com/skywalking/skywalking-agent.jar
+repository_root: http://s3-ap-southeast-1.amazonaws.com/skywalking/skywalking-agent.jar
